@@ -9,34 +9,7 @@ const clean = require('gulp-clean');
 const sequence = require('run-sequence');
 
 let userJS = [
-  './src/circletunnel.js',
-  './src/dispversion.js',
-  './src/door.js',
-  './src/flash.js',
-  './src/gce.js',
-  './src/getready.js',
-  './src/initialpage.js',
-  './src/itemdata.js',
-  './src/mp.js',
-  './src/newitem.js',
-  './src/orbdata.js',
-  './src/p_brickrow.js',
-  './src/p_brickwall.js',
-  './src/p_orb.js',
-  './src/plugindata.js',
-  './src/pribtn.js',
-  './src/tab-x.js',
-  './src/title34.js',
-  './src/twinkel.js',
-  './src/userinfo.js',
-  './src/zebra.js',
-  './src/screen.js',
-  './src/arcade.js',
-  './src/arcadePanel.js',
-  './src/optionpanel.js',
-  './src/option.js',
-  './src/infinity.js',
-  './src/landing.js',
+  //按加载顺序把src下的js文件写在这里
   './src/game.js'
 ]
 let code = ['./cache/libs.js'].concat(userJS)
